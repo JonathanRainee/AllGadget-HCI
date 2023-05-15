@@ -1,11 +1,13 @@
-/* .body{
+body{
+    /* background-image: url('../asset/white.jpg');
     background-attachment: fixed;
     background-size: cover;
-    line-height: 1.5;
-} */
+    line-height: 1.5; */
+    height: 45%;
+}
 
 .main{
-    background-image: url('../asset/aboutUs.jpg');
+    background-image: url('../asset/white.jpg');
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -17,8 +19,9 @@
 }
 
 .text{
-    /* position: absolute; */
+    position: absolute; 
     justify-content: flex-end;
+    color: black;
 }
 
 #text{
@@ -27,6 +30,7 @@
     align-items: center;
     align-self: center;
     text-align: center;
+    color: black;
 }
 
 
@@ -61,7 +65,7 @@
 .contentImg p{
     font-size: 40px;
     padding: 12px;
-    color: white;
+    color: black;
     justify-content: right;
     float: right;
     font-family: 'Roboto', sans-serif;
