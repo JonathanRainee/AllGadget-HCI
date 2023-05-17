@@ -1,0 +1,149 @@
+.content{
+    background-image: url(../asset/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer{
+    background-color: white;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    bottom: 0;
+    color: black;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    height: 30vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.formContent{
+    margin-top: -100px;
+    width: 30vw;
+    background-color: white;
+    /* padding: 10px; */
+    opacity: 0,3;
+    justify-content: center;
+}
+
+.formRegister{
+    display: flex;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    height: 100vh;
+    align-content: center;
+    justify-self: center;
+}
+
+.inputColumn{
+    /* font-weight: 5; */
+    padding-top: 5px;
+    font-size: 24px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#inputContent{
+    padding-left: 10px;
+}
+
+.btnSubmit-check{
+    padding-top: 20px;
+}
+
+.input{
+    width: inherit;
+    height: 30px;
+    color: black;
+    /* border-radius: 5px; */
+    background-color: transparent;
+    /* font-weight: 10; */
+    border: none;
+    outline: none;
+    border-bottom: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submitBtn{
+    width: 30vw;
+    height: 30px;
+    font-size: 15px;
+    padding-left: -10px;
+    color: black;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: 100;
+    
+}
+
+
+::placeholder{
+    font-size: 15pt;
+}
+
+input:focus, input:focus {
+    color: black;
+}
+
+.radioBtn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.femaleBtn{
+    margin-right: 120px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 1rem; */
+    margin-top: 1rem;
+}
+
+.btnSubmit{
+    height: 50px;
+    margin-top: 10px;
+    font-size: 15pt;
+    border-radius: 5px;
+    justify-content: center;
+    justify-self: center;
+    padding-bottom: 5px;
+}
+
+.checkColumn{
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submitBtn {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    body{
+        height: fit-content;
+    }
+
+    .formRegister{
+        display: flex;
+        width: 450px;
+        height: 600px;
+    }
+}

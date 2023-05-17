@@ -36,9 +36,9 @@
     width: 900px;
     height: 400px;
     border-radius: 20px;
-    top: -50%;
-    left: -50%;
-    transform: translate(119%, 240%);
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -90%);
     margin-top: 50px;
 }
 
