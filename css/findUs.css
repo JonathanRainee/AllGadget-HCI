@@ -1,5 +1,5 @@
 .content{
-    background-image: url(../asset/purple.jpg);
+    background-image: url(../asset/background/purple.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -41,7 +41,16 @@
 
 
 .image-box{
-    background-image: url(../asset/store1.jpg);
+    background-image: url(../asset/store/store1.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.image-box2{
+    background-image: url(../asset/store/store2.jpg);
     width: 50%;
     height: 100%;
     background-size: 100% 100%;

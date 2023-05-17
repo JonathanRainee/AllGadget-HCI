@@ -3,7 +3,7 @@ body{
 }
 
 .main{
-    background-image: url('../asset/white.jpg');
+    background-image: url('../asset/background/white.jpg');
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
