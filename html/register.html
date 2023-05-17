@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AllGadget</title>
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/findUs.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/register.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    
@@ -58,27 +59,42 @@
     </div>
 
     <div class="content">
-        <div class="filter">
-            <div class="store-card">
-                <div class="image-box"></div>
-                <div class="text-box">
-                    <p>AllGadget</p>
-                    <br>
-                    <p class="heading">Find AllGadget at S mall</p>
-                    <p class="subheading">S Mall 2nd floor block B</p>
-                    <p class="sub-subheading">+01-234-444</p>
+        <div class="formContainer">
+            <form action="" method="post" class="form" id="regisForm">
+
+                <div class="formContent">
+                    <h1 class="title">Sign Up</h1>
+                    <div class="inputContainer" id="inputContent">
+                        <input type="text" name="nameInput" class="input" placeholder="Full Name">
+                    </div>
+                    <div class="inputContainer" id="inputContent">
+                        <input type="email" name="emailInput" class="input" placeholder="Email">
+                    </div>
+                    <div class="inputContainer" id="inputContent">
+                        <input type="text" name="phoneInput" class="input" placeholder="Phone Number">
+                    </div>
+                    <div class="inputContainer" id="inputContent">
+                        <input type="password" name="passwordInput" class="input" placeholder="Password">
+                    </div>
+                    <div class="radioBtn" id="inputContent">
+                        <div class="maleBtn">
+                            <input type="radio" id="maleBtn" name="genderBtnInput" class="genderBtnInput">
+                            <label for="maleBtn"  class="inputColumn">Male</label>
+                        </div>
+                        <div class="femaleBtn">
+                            <input type="radio" id="femaleBtn" name="genderBtnInput" class="genderBtnInput">
+                            <label for="femaleBtn"  class="inputColumn">Female</label>      
+                        </div>
+                    </div>
+                    <div class="btnSubmit-check " id="inputContent">
+                        <input type="checkbox" id="checkboxID" name="checkboxID">
+                        <label for="checkboxID" class="checkColumn" >I Agree to the terms and conditions applied</label>
+                    </div>
+                    <div class="btnSubmit" id="submitBtn">
+                        <input type="submit" class="btnSubmit submitBtn">
+                    </div>
                 </div>
-            </div>
-            <div class="store-card2">
-                <div class="image-box"></div>
-                <div class="text-box">
-                    <p>AllGadget</p>
-                    <br>
-                    <p class="heading">Find AllGadget at S mall</p>
-                    <p class="subheading">S Mall 2nd floor block B</p>
-                    <p class="sub-subheading">+01-234-444</p>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 

@@ -2,42 +2,6 @@ body{
     background-color: #D3CEDF;
 }
 
-/* slider start */
-.slider{
-    background-color: #D3CEDF;
-    width: 100vw;
-    height: 480px;
-    display: flex;
-    justify-content: center;
-}
-
-.imgSlider {
-    width: 800px;
-    position: relative;
-    overflow: hidden;
-}
-
-.imgContainer{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-}
-
-.sliderImage{
-    object-fit: cover;
-    display: block;
-    width: 800px;
-    height: 480px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
-/* slider end */
-
-
-/* card start */
-
 .card{
     padding-left: 20%;
 }
@@ -53,7 +17,6 @@ body{
 .listCard{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -114,19 +77,16 @@ body{
 
     .listCard3{
         display: flex;
-        /* grid-template-columns: auto auto; */
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 
     .cardMerge{
         display: flex;
         flex-direction: column;
     }
 }
-
-/* card end */

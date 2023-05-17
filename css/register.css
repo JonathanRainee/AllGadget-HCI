@@ -32,14 +32,12 @@
     margin-top: -100px;
     width: 30vw;
     background-color: white;
-    /* padding: 10px; */
     opacity: 0,3;
     justify-content: center;
 }
 
 .formRegister{
     display: flex;
-    /* background-color: black; */
     align-items: center;
     justify-content: center;
     opacity: 0.5;
@@ -49,7 +47,6 @@
 }
 
 .inputColumn{
-    /* font-weight: 5; */
     padding-top: 5px;
     font-size: 24px;
     color: black;
@@ -68,9 +65,7 @@
     width: inherit;
     height: 30px;
     color: black;
-    /* border-radius: 5px; */
     background-color: transparent;
-    /* font-weight: 10; */
     border: none;
     outline: none;
     border-bottom: 2px black solid;
@@ -83,7 +78,6 @@
     font-size: 15px;
     padding-left: -10px;
     color: black;
-    /* font-family: 'Times New Roman', Times, serif; */
     font-weight: 100;
     
 }
@@ -110,7 +104,6 @@ input:focus, input:focus {
 .inputContainer{
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 1rem; */
     margin-top: 1rem;
 }
 
@@ -133,7 +126,6 @@ input:focus, input:focus {
 .submitBtn {
     cursor: pointer;
 }
-
 
 @media screen and (max-width: 450px) {
 

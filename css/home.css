@@ -9,12 +9,7 @@
 
 .bodyMain{
     background-image: url('../asset/pink.jpg');
-    
-    /* display: flex; */
-    /* justify-content: center; */
     align-items: center;
-    /* background-color: black; */
-    /* background-color: rgba(37, 40, 102, 0.579); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100%;
@@ -24,7 +19,6 @@ body{
     height: 1200px;
 }
 
-/* navbar start */
 
 .navbar{
     display: flex;
@@ -37,8 +31,6 @@ body{
     width: 80px;
     margin-left: 2vw;
     align-items: center;
-    
-    /* margin-top: 1vw;; */
 }
 
 .txt{
@@ -59,8 +51,6 @@ body{
     width: 30px;
     display: none;
     padding: 30px;
-    /* position: relative; */
-    /* background-color: blue; */
 }
 
 .navRight{
@@ -82,26 +72,17 @@ body{
     background-color: #F2D7D9;
     padding: 20px;
     width: 100px;
-    /* height: 120px; */
     text-align: right;
     z-index: 1;
-    /* position: relative; */
-    /* background-color: blue; */
 }
 
 .dd{
     margin-bottom: 10px;
-    /* position: relative; */
 }
 
 .dd a:hover{
     color: #9CB4CC;
 }
-/* 
-.homePage{
-    width: 190px;
-} */
-
 .homePage:hover .a{
     color: #9CB4CC;
 }
@@ -125,12 +106,7 @@ body{
 
     .navRight{
         justify-content: flex-end;
-        /* position: absolute; */
-        /* left: auto; */
         right: auto;
-        /* margin-left: auto; */
-        /* margin-right: -100%; */
-
     }
 
     .stripes{
@@ -146,11 +122,6 @@ body{
     }
 
 }
-
-/* navbar end */
-
-
-/* main start */
 
 .header{
     width: 100%;
@@ -232,11 +203,9 @@ h2{
     background: url('./asset/main.jpg');
     background-position: center;
     background-size: cover;
-    /* background-color: blue; */
 }
 
 .background h2{
-    /* top: 500px; */
     padding: -20px;
     position: absolute;
     display: flex;
@@ -249,19 +218,12 @@ h2{
     width: 700px;
 }
 
-/* main end */
-
-
-/* footer start */
-
 .footer{
     display: flex;
     justify-content: center;
     padding: 15px;
     bottom: 0;
-    /* z-index: 2; */
     width: 100%;
-    /* display: flex; */
     position: relative;
     height: 150px;
     background-color: #D3CEDF;  
@@ -273,7 +235,6 @@ h2{
 .footer p{
     padding-top: 30px;
     float: 2px;
-    /* margin-top: 8px; */
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-family: 'Courier New', Courier, monospace;
@@ -292,7 +253,6 @@ h2{
     margin-top: 22px;
     margin-left: 5px;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
 }
 
@@ -307,5 +267,3 @@ h2{
 #ig{
     width: 40px;
 }
-
-/* footer end */
