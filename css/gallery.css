@@ -1,11 +1,11 @@
 body{
     /* background-color: red;
      */
-     background-image: url('../asset/background/violet.jpg');
-     align-items: center;
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     height: 100%;
+    background-image: url('../asset/background/violet.jpg');
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
 }
 
 .card{
@@ -13,11 +13,12 @@ body{
 }
 
 .cardNumber{
-    width: 23vw;
-    height: 22.7vw;
+    width: 24vw;
+    height: 24.7vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(201, 164, 218);
 }
 
 .listCard{
@@ -46,13 +47,16 @@ body{
 }
 
 .cardImg img{
-    width: 20rem;
-    height: 20rem;
+    margin-top: 1rem;
+    width: 16rem;
+    height: 16rem;
 }
 
 .cardImg{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card2{
@@ -95,4 +99,9 @@ body{
         display: flex;
         flex-direction: column;
     }
+}
+
+.name{
+    color: white;
+    text-shadow: 2px 2px black;
 }
