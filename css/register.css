@@ -22,33 +22,29 @@
     color: black;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    height: 30vw;
+    height: 32vw;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 20px;
 }
 
 .formContent{
-    margin-top: -100px;
-    width: 30vw;
+    /* margin-top: 5px; */
+    width: 34vw;
     background-color: white;
     opacity: 0,3;
     justify-content: center;
+    align-items: center;
 }
 
-.formRegister{
+.title{
     display: flex;
     align-items: center;
-    justify-content: center;
-    opacity: 0.5;
-    height: 100vh;
-    align-content: center;
-    justify-self: center;
 }
 
 .inputColumn{
     padding-top: 5px;
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     font-family: 'Roboto', sans-serif;
 }
@@ -82,7 +78,6 @@
     
 }
 
-
 ::placeholder{
     font-size: 15pt;
 }
@@ -92,7 +87,7 @@ input:focus, input:focus {
 }
 
 .radioBtn{
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -109,12 +104,13 @@ input:focus, input:focus {
 
 .btnSubmit{
     height: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 15pt;
     border-radius: 5px;
-    justify-content: center;
-    justify-self: center;
     padding-bottom: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .checkColumn{

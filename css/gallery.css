@@ -6,10 +6,6 @@ body{
     height: 100%;
 }
 
-.card{
-    padding-left: 20%;
-}
-
 .cardNumber{
     width: 24vw;
     height: 24.7vw;
@@ -102,4 +98,5 @@ body{
 .name{
     color: white;
     text-shadow: 2px 2px black;
+    text-align: center
 }

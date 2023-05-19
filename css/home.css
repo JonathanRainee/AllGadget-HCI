@@ -15,17 +15,9 @@
     height: 100%;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    display: table;
-}
-
 body{
     height: 1050px;
 }
-
 
 .navbar{
     display: flex;
@@ -120,14 +112,6 @@ body{
         justify-content: flex-end;
         display: block;
     }
-
-    .vendor{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
 }
 
 .header{
@@ -187,15 +171,6 @@ h2{
     width: 35vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-.vendor{
-    display: flex;
-}
-
-.vendorLogo img{
-    width: 8rem;
-    height: 8rem;
 }
 
 .content{
